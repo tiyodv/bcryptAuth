@@ -1,0 +1,21 @@
+{
+  "name": "userauth",
+  "version": "1.0.0",
+  "description": "a user authentication system",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [
+    "userAuth"
+  ],
+  "author": "tiyo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
